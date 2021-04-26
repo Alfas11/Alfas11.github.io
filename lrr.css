@@ -1,0 +1,442 @@
+@charset "utf-8";
+/* CSS Document */
+
+*,body,html {
+
+		margin: 0;
+		padding: 0;
+		font: 1.03em;
+    }
+
+body {
+	background-color: #eee;
+}
+
+/*------------------------------------------------------*/
+	
+.menu {
+	z-index: 1000;
+
+	position: fixed;
+	height: 60px;
+	background-color: #333;
+	color: #fff;
+	width: 100%;
+	box-shadow: -1px 6px 5px #ff0055;
+
+}
+
+.menu #logo {
+	float: left;
+	line-height: 30px;
+	padding: 15px 30px;
+	text-shadow: 2px 2px 3px #ff0055 , -2px -2px 3px gray;
+	font-size: 1.5em;
+	font-family:"SnellRoundhand" ;
+}
+#logox a:hover{
+
+	font-size: 1.5em;
+}
+.menu #logo a:hover{
+	font-size: 1.5em;
+}
+.menu #logox {
+	float: left;
+	line-height: 30px;
+	padding: 15px 30px;
+	text-shadow: 2px 2px 3px #ff0055 , -2px -2px 3px gray;
+	font-size: 1.5em;
+	font-style: oblique;
+}
+
+.menu-item {
+	padding: 15px 50px;
+	color: #fff;
+	text-decoration: none;
+    line-height: 30px;
+    height: 30px;
+    display: inline-block;
+}
+/*----------------------*/
+.menu-itemx {
+	padding: 15px 50px;
+	color: #fff;
+	text-decoration: none;
+    line-height: 30px;
+    height: 30px;
+    display: inline-block;
+	width: 63px;
+}
+
+.menu-itemx:hover{
+	background-color: #ff0055;
+}
+.menu-itemx:focus {
+	background-color: #ff0055;
+}
+/*------------ˆˆˆˆˆ--------*/
+
+.menu > ul{
+	list-style-type: none;
+}
+.menu > ul > li {
+	float: left;
+}
+
+.menu-item:hover{
+	background-color: #ff0055;
+
+}
+
+/*-------------------------------------------------------------*/
+
+.sub-content{
+	top: 60px;
+	background-color: #333;
+	overflow: hidden;
+	max-height: 0;
+	box-shadow: -1px 6px 5px #ff0055;
+
+}
+
+.sub-drop ul {
+	list-style-type: none;
+
+}
+.sub-drop a {
+	text-decoration: none;
+	color: #fff;
+	width: 100%;
+}
+
+.sub-drop ul li a {
+	display: inline-block;
+	padding: 10px 30px;
+
+}
+
+.sub-drop ul li:hover {
+	background-color: #ff0055;
+
+}
+ 
+ .menu ul li:hover .sub-content {
+ 	max-height: 400px;
+ 	transition: max-height 0.8s ease-in;
+ 	border-radius: 0px 0px 10px 10px;
+ }
+
+ #rmenu {
+ 	float: right;
+ }
+
+.qq {
+	padding-top:  80px;
+	text-align: center;
+	font-size: 3em;
+}
+
+.qq span {
+	color: red;
+}
+
+.ww{
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	padding-top: 30px;
+
+	font-style: "SignPainter";
+	font-family: "SignPainter";
+}
+
+.ii{border-radius: 25px;
+	margin: auto;        /*----------maybe can be canceled-----*/
+	padding: 0px 0px;
+	box-shadow: -1px 6px 5px #333;
+	margin-top: 10px;
+
+}
+
+#os p {
+	padding-left: 50px;}
+
+
+/*----------------------------------*/
+
+
+.zzz {
+	background-color: #333;
+	height: 30px;
+	width: 100%;
+	color: #fff;
+}
+.ddd{
+	padding-top: 1px;
+	
+}
+.zxz{
+	
+	height: 25px;
+	width: 100%;
+	color: #fff;
+	background-color: #333;
+	bottom: 0px;
+
+}
+
+.zzz > pre {
+	color: #eee;
+	font-size: 1.1em;
+}
+
+.ccc{
+	background-color: #ff0055;
+	height: 50px;
+	margin-top: 35px;
+}
+.zxz tsh{text-shadow: 2px 6px 5px #ff0055;}
+
+/*--------------------------------lrr//lr.html.-------*/
+
+/*----------------------------------*/
+.listcom{padding:100px 30px 10px 30px;
+	margin: 20px;
+	font-size: 1.5em;
+}
+.olpad{
+	padding-left: 40px;
+	padding-bottom: 5px;
+	font-size: .9em;
+}
+
+.menu-item:focus {
+	background-color: #ff0055;
+
+}
+/*-------------OSs-------------------*/
+#os {
+	width: 75%;
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-right: 10px;
+	font-size: 1.2em;
+}
+/*---------------------------------*/
+.join{
+	width: 23%;
+	background-color: gray;
+	height: 500px;
+	float: left;
+	position: fixed;
+	border-radius: 10px;
+	margin:80px 10px;
+	box-shadow: -1px 6px 5px #ff0055;
+	background-color: #333;
+	color: #eee;
+	line-height: 30px;
+	font-size: 1.3em;
+	max-height: 500px;
+
+}
+
+.aa{
+text-align: center; 
+width:100px;
+height:30px;
+top:10px;
+left: 108px;
+display:inline-block;
+text-decoration:none;
+position:relative;
+color:white;
+/*text-align:center;*/
+border:2px solid #FFF;
+border-radius:10px;
+animation:xx;
+animation-duration:10s;
+animation-delay:0s;
+text-shadow: 3px 2px 5px #ff0055;
+box-shadow: -1px 2px 5px #ff0055;
+}
+
+.aa:hover{-webkit-transform:scale(2,1);
+}
+.join .aa:focus{
+	
+	display: none;
+}
+@keyframes xx{
+	0%{opacity:0;}
+	100%{opacity:1;}
+}
+
+input{width:200px;
+height:25px;
+border-radius:10px 0px;
+margin:5px;
+margin-left: 40px}
+input:focus {background-color:#eee;}
+ahmed { padding-left: 10px;
+}
+ff0055{color: #ff0055;
+font-size: 1.3em;}
+
+
+/*----------------------------------*/
+#ossidpar
+{
+	padding-top: 0PX;
+background-color: black;
+	border: solid 2px black;
+	width: 23%;
+	height: 1000px;
+	margin: 1%;
+	float: right;
+	
+	box-shadow: -1px 6px 5px grey;
+	border-radius: 20px;
+	overflow: hidden;
+	
+}
+
+#nhea{ box-shadow: -1px 6px 5px grey;
+	border-radius: 1000px;
+	background-color: #BCC6C8;
+	padding: 75px;
+	text-align: center;
+	left: 50px;
+	font-family: calibri;
+	color: #ff0055;
+    height: 1px;
+    font-size: 2em;
+    z-index: -1;
+}
+
+#nhea>ul {
+	padding-top: 15px;
+}
+
+#nhea>ul>li {
+	display: inline-block;
+	padding-left: 25px;
+	font-size: 1.3em;
+	color: #ff0055;
+}
+#nhea>ul>li>a{
+	text-decoration: none;
+	color: #333;
+	font-size: 30px;
+}
+
+#nhea>ul>li>a:hover{
+	color: #0091FE;
+	font-size: 40px;
+}
+
+#ossidpar >img{
+	height: 100%;
+	width: 100%;
+}
+#ossidpar img:hover{
+	    -webkit-filter: grayscale(100%);
+}
+
+.pol{padding-top: 20px;
+column-count: 3;
+    column-rule: dotted;
+    width: 700px;
+}
+
+/*--------------------------------media----------------*/
+
+ video,audio {background-color: #333;
+ 	border-radius: 15px;
+	box-shadow: -1px 6px 5px #ff0055;
+	margin-top: 25px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	
+}
+/*---------------------*/
+#sidbar {
+	float: right; 
+	width: 20%;
+	height: 670px;
+	margin: 1%;
+	text-align: center;
+
+}
+
+ #sidimg > img {
+ 	
+ 	width: 90%;
+ 	padding: 10px;
+ 	border: 3px solid #ff0055;
+ 	border-radius: 5px 5px;
+ }
+ #sidimg img:hover{
+ 	background-image: url(apple.jpg);
+ 	z-index: 1000;
+ }
+
+paddi{margin-top: 10px;
+	padding-top: 15px;
+	padding-left: 10px;
+}
+
+/*---------------butiful------------*/
+
+#big_wrapper{
+ border-radius: 30px;
+ width: 500px;
+ border:solid 3px  #ff0055;
+ box-shadow: -1px 6px 5px #333;
+ padding: 15px;
+ margin: 0  auto;
+ padding-top: 100px;
+ text-shadow: 2px 2px 3px #ff0055 , -2px -2px 3px gray;
+ color: white;
+ font-family: normal;
+ font-style: italic;
+ font-size: 24px;
+ text-align: center;
+} 
+#home{
+					width: 90px;
+					font-size: 1.1em;
+					float: right; position: fixed;
+					z-index: 1;
+					padding: 15px;
+					 padding-top: 75px;
+					  background-color: #333;
+					   opacity: .9;
+					   border-radius: 0px 0px 110px 0px;
+					    box-shadow: -1px 6px 5px #ff0055;
+						border:solid 3px  #ff0055;
+						text-shadow: 2px 2px 3px #ff0055 , -2px -2px 3px gray;
+						font-family: normal;
+						 font-style: italic;
+						 font-size: 1.2em;
+						 text-align: center;
+						 margin: 0  auto;
+												}
+		#home a{
+			color: white;
+			 text-decoration: none;
+			 text-align: center;
+			 float: left;
+		}
+
+
+		.hoo:hover{
+			background-color: #ff0055;
+		}
+
+		/*---------------------------- php css--------------------------------*/
+
+
+
+
+
